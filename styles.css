@@ -1,0 +1,171 @@
+body {
+  font-family: Montserrat-Black 900;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: Montserrat-Black 900;
+}
+
+.pricing-text, .testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* feature-paragraph */
+.feature-paragraph {
+  color: #8f8f8f;
+}
+
+/* Heading Section */
+.big-heading{
+  font-family: Montserrat-Black 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;;
+  line-height: 1.5;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  transform: rotate(20deg);
+  width: 20%;
+  position: absolute;
+  right: 25%;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 0 5%;
+}
+
+.feature-image {
+  color: #ef8172;
+  font-size: 50px;
+  margin-bottom: 1rem;
+  /* width: 100%; */
+  /* margin-left: 4%; */
+}
+
+.feature-image:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  }
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Feature */
+.pricing-button {
+  width: 100%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-title{
+  font-size: 1.5rem;
+}
+
+.pricing-column {
+  padding: 2% 2%;
+}
+
+/* CTA section */
+#cta {
+  font-family: Montserrat-black 900;
+}
+
+/* Footer Section */
+
+.footer-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width:900px) {
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
